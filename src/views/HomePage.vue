@@ -55,6 +55,9 @@ const fetchWeatherData = async () => {
     
     const times = data.hourly.time;
     const temperatures = data.hourly.temperature_2m;
+    const x = "dummy";
+
+    console.log(x);
 
     // Mengambil 10 data pertama sesuai ketentuan tugas
     const temporaryData = [];
